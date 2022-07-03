@@ -1,0 +1,169 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+li {
+  color: #fff;
+  display: inline;
+  list-style: none;
+  padding-right: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  padding: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav > img {
+  margin-left: 1.5em;
+}
+
+/* main */
+
+.welcome {
+  background-image: url("../assets/img1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25em;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.porcentage {
+  color: #f8062e;
+}
+
+.btn {
+  background-color: #f8062e;
+  border: none;
+  border-radius: 0.4em;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 2em;
+  padding: 1em 3em;
+}
+
+.plays-cards {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.container-cards,
+.products-stars {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2em;
+  padding: 1em;
+}
+
+.p-card {
+  margin-top: 2em;
+}
+
+.left-card {
+  margin-left: -2em;
+}
+
+.envio {
+  color: green;
+  font-size: 0.8em;
+  margin-left: -2.4em;
+}
+
+.banners {
+  height: 20em;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.chairs-gamers {
+  display: flex;
+  justify-content: end;
+  background-image: url("../assets/banner1.png");
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 8em;
+}
+
+.chairs-gamers > p,
+.computers > p {
+  align-self: center;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.computers {
+  display: flex;
+  justify-content: end;
+  background-image: url("../assets/banner2.png");
+  background-size: cover;
+  width: 30%;
+  height: 8em;
+}
+
+/* footer */
+
+footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10em;
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+.networks {
+  color: #fff;
+}
+
+.networks > p {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+p > img {
+  padding-right: 1em;
+}
