@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/dc6dc2d5ac.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Game Shop</title>
   </head>
   <body>
     <header>
-      <img src="./assets/Logo.png" alt="Logo-Header" />
+      <img class="logo" src="./assets/Logo.png" alt="Logo-Header" />
 
       <nav>
-        <ul>
+        <i class="fa-solid fa-bars nav-tablet"></i>
+        <ul class="nav-desktop">
           <li>Categorias</li>
           <li>Ofertas</li>
           <li>Moda</li>
           <li>Favoritos</li>
         </ul>
-        <img src="./assets/Vector.png" alt="Carrito-Compras" />
+        <img
+          class="nav-desktop"
+          src="./assets/Vector.png"
+          alt="Carrito-Compras"
+        />
       </nav>
     </header>
 
@@ -31,32 +40,38 @@
         <button class="btn">Comprar</button>
       </section>
 
-      <section class="plays-cards">
-        <h2>Productos Destacados</h2>
+      <section>
+        <h2>Productos destacados</h2>
 
-        <article class="container-cards">
+        <article class="games">
           <div class="card">
-            <img src="./assets/ps41_1.png" alt="Play 1" />
+            <img class="img" src="./assets/ps41_1.png" alt="Game One" />
 
-            <p class="p-card left-card">$3.200</p>
-            <p class="left-card">12 x $266,66 sin interes</p>
-            <span class="envio left-card">Envio gratis</span>
+            <div class="p-container">
+              <p>$3200</p>
+              <p>12 x $266,66 sin interes</p>
+              <p class="p-green">Envio gratis</p>
+            </div>
           </div>
 
           <div class="card">
-            <img src="./assets/ps41_2.png" alt="Play 2" />
+            <img class="img" src="./assets/ps41_2.png" alt="Game One" />
 
-            <p class="p-card left-card">$3.200</p>
-            <p class="left-card">12 x $266,66 sin interes</p>
-            <span class="envio left-card">Envio gratis</span>
+            <div class="p-container">
+              <p>$3200</p>
+              <p>12 x $266,66 sin interes</p>
+              <p class="p-green">Envio gratis</p>
+            </div>
           </div>
 
           <div class="card">
-            <img src="./assets/ps41_3.png" alt="Play 3" />
+            <img class="img" src="./assets/ps41_3.png" alt="Game One" />
 
-            <p class="p-card left-card">$3.200</p>
-            <p class="left-card">12 x $266,66 sin interes</p>
-            <span class="envio left-card">Envio gratis</span>
+            <div class="p-container">
+              <p>$3200</p>
+              <p>12 x $266,66 sin interes</p>
+              <p class="p-green">Envio gratis</p>
+            </div>
           </div>
         </article>
       </section>
@@ -83,9 +98,15 @@
       <div class="networks">
         <p>Redes Sociales</p>
         <p>
-          <img src="./assets/twitter.png" alt="Twitter" />
-          <img src="./assets/facebook.png" alt="Facebook" />
-          <img src="./assets/instagram.png" alt="Instagram" />
+          <a target="_blank" href="https://twitter.com/?lang=es"
+            ><img class="logo" src="./assets/twitter.png" alt="Twitter"
+          /></a>
+          <a target="_blank" href="https://www.facebook.com/"
+            ><img src="./assets/facebook.png" alt="Facebook"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/"
+            ><img src="./assets/instagram.png" alt="Instagram"
+          /></a>
         </p>
       </div>
     </footer>
