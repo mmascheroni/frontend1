@@ -176,7 +176,7 @@ button:hover {
 }
 
 /****************************** FORM DESKTOP **************************/
-section {
+.section-form {
   background-color: var(--primary-color);
   border-radius: 2em;
   color: #fff;
@@ -186,8 +186,8 @@ section {
   margin: 2em auto;
 }
 
-section h1,
-section p {
+.section-form h1,
+.section-form p {
   text-align: center;
 }
 
